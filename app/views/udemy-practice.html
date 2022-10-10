@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Content page template – {{ serviceName }} – GOV.UK Prototype Kit
+{% endblock %}
+
+{% block beforeContent %}
+  <a class="govuk-back-link" href="javascript:window.history.back()">Back</a>
+{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">
+        Udemy Practice
+      </h1>
+
+
+     <h2>List heading</h2>
+     <ol>
+          <li>Animals
+              <ul>
+                  <li>Bat</li>
+                  <li>Dog</li>
+                  <li>Whale</li>
+
+              </ul>
+
+          </li>
+
+
+     </ol>
+<!-- this is how to add comments command forward slash -->
+<img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="photo of grey cat">
+      <p>Read more <a href="/url/of/onward/page">about this topic</a>.</p>
+
+    </div>
+  </div>
+
+{% endblock %}
